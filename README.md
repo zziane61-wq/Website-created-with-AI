@@ -60,8 +60,8 @@ Development Tool: GitHub Copilot (AI-Powered)
 التواصل	نموذج تواصل متقدم ومعلومات الاتصال
 🚀 كيفية الاستخدام:
 استنساخ المستودع:
-git clone https://github.com/yourusername/portfolio.git
-cd portfolio
+
+
 فتح الموقع:
 افتح ملف index.html مباشرة في المتصفح
 أو استخدم Live Server في VS Code
