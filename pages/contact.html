@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>التواصل - موقع احترافي</title>
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/navbar.css">
+    <link rel="stylesheet" href="../css/contact.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navbar Section -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <h1 class="logo">Portfolio</h1>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="../index.html" class="nav-link">الرئيسية</a></li>
+                <li><a href="about.html" class="nav-link">عني</a></li>
+                <li><a href="services.html" class="nav-link">الخدمات</a></li>
+                <li><a href="projects.html" class="nav-link">المشاريع</a></li>
+                <li><a href="contact.html" class="nav-link active">التواصل</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Contact Section -->
+    <section class="contact" style="min-height: 100vh; display: flex; align-items: center;">
+        <div class="container">
+            <h2 class="section-title">تواصل معي</h2>
+            <p style="text-align: center; color: #666; margin-bottom: 3rem; font-size: 1.1rem; max-width: 600px; margin-left: auto; margin-right: auto;">
+                هل لديك استفسار أو تريد مناقشة مشروعك؟ لا تتردد في التواصل معي. سأكون سعيداً بالرد على أسئلتك في أسرع وقت ممكن.
+            </p>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>العنوان</h4>
+                            <p>الإمارات العربية المتحدة<br>دبي - الإمارات</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>البريد الإلكتروني</h4>
+                            <p>
+                                <a href="mailto:info@example.com" style="color: #667eea; text-decoration: none;">info@example.com</a><br>
+                                <a href="mailto:support@example.com" style="color: #667eea; text-decoration: none;">support@example.com</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>الهاتف</h4>
+                            <p>
+                                <a href="tel:+971501234567" style="color: #667eea; text-decoration: none;">+971 50 123 4567</a><br>
+                                <a href="tel:+971501234568" style="color: #667eea; text-decoration: none;">+971 50 123 4568</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h4>ساعات العمل</h4>
+                            <p>الاثنين - الجمعة: 9:00 ص - 6:00 م<br>الحد: 9:00 ص - 1:00 م</p>
+                        </div>
+                    </div>
+                    <div class="social-links" style="margin-top: 2rem;">
+                        <a href="https://facebook.com" class="social-icon" title="Facebook"><i class="fab fa-facebook"></i></a>
+                        <a href="https://twitter.com" class="social-icon" title="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="https://linkedin.com" class="social-icon" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com" class="social-icon" title="GitHub"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <label for="name">اسمك *</label>
+                        <input type="text" id="name" placeholder="أدخل اسمك الكامل" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">بريدك الإلكتروني *</label>
+                        <input type="email" id="email" placeholder="أدخل بريدك الإلكتروني" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">رقم الهاتف</label>
+                        <input type="tel" id="phone" placeholder="أدخل رقم هاتفك (اختياري)">
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">الموضوع *</label>
+                        <select id="subject" required style="width: 100%; padding: 1rem; border: 1px solid #ddd; border-radius: 8px; font-family: inherit; font-size: 1rem;">
+                            <option value="">اختر الموضوع</option>
+                            <option value="design">طلب تصميم</option>
+                            <option value="development">طلب تطوير</option>
+                            <option value="consultation">استشارة</option>
+                            <option value="support">دعم فني</option>
+                            <option value="other">أخرى</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">الرسالة *</label>
+                        <textarea id="message" placeholder="اكتب رسالتك هنا..." rows="6" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">إرسال الرسالة</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 جميع الحقوق محفوظة.</p>
+            <div class="footer-links">
+                <a href="#">سياسة الخصوصية</a>
+                <a href="#">شروط الاستخدام</a>
+                <a href="contact.html">اتصل بنا</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript Files -->
+    <script src="../js/navigation.js"></script>
+    <script src="../js/form.js"></script>
+    <script src="../js/utils.js"></script>
+</body>
+</html>
